@@ -1,0 +1,12 @@
+Ever hit performance issues fetching the same data over and over again?
+I faced this while building a credit assessment service — fetching user info from the DB on every request was killing response times.
+ It slowed things down, clogged the DB, and honestly… felt unnecessary.
+My fix?
+I started in memory caching using ConcurrentHashMap.
+But why ConcurrentHashMap over HashMap or SynchronizedMap?
+ 🔸 HashMap + multiple threads = ❌ race conditions, inconsistent data
+ 🔸 SynchronizedMap = thread-safe but blocks all threads on write 😓
+ 🔸 ConcurrentHashMap = ✅ thread-safe, ✅ non-blocking reads, ✅ fine-grained locking on updates
+Clean, fast, and efficient — especially for read-heavy workloads.
+ Helped reduce DB load and improved response times significantly.
+What do you use for in-memory caching in your services?
