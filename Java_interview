@@ -1,0 +1,20 @@
+Just attended a Java interview for a 3 YOE (Years of Experience) role — and I was hit with some deep & practical questions. Thought I’d share them to help others prepare and reflect on their own knowledge too!
+🧠 These questions weren’t just theoretical — they really tested real-world Java understanding:
+🔹 Java Concepts & Best Practices
+❓ What are some Java best practices you wish you had known earlier in your career?
+ ❓ How do you structure large-scale Java applications to keep them maintainable?
+ ❓ Do you prefer writing if-else chains or using switch expressions in Java 14+? Why?
+🔹 Performance & Optimization
+❓ How do you detect and fix memory leaks in Java applications?
+ ❓ What’s your go-to approach for optimizing Java code for performance?
+🔹 New Java Features
+❓ Which recent Java feature has had the most impact:
+ → Records
+ → Pattern Matching
+ → Sealed Classes
+ → Virtual Threads?
+ ❓ Are you using Project Loom (virtual threads) in production yet? Why or why not?
+🔹 Java Interview Trivia
+❓ Difference between HashMap, LinkedHashMap, and TreeMap — can you explain each in one sentence?
+ ❓ Internal working of HashMap in Java — and what changed after Java 8?
+ ❓ How do you handle concurrent modifications in a ConcurrentHashMap?
